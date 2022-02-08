@@ -1,253 +1,571 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanjimul Islam Tanim</title>
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<html>
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+        <head>
+            <link rel="stylesheet" href="style.css">
 
+            <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+            
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-</head>
-<body>
-    <div class="bgdark">
-<!-- header section starts  -->
+            <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 
-<header>
+            <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
-    <div class="user">
-        <img src="image/697379.jpg" alt="">
-        <h3 class="name">Tanjimul Tanim</h3>
-        <p class="post">front end developer</p>
-    </div>
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            
+            <!-- Popper JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
-    </nav>
+            <!-- Owl Carousel -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
-</header>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-<!-- header section ends -->
-
-<div id="menu" class="fas fa-bars"></div>
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <h3>HI THERE !</h3>
-    <h1>I'M <span>Tanjimul Tanim</span></h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt aspernatur fugiat minus enim ullam repudiandae sint sed magnam tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, at.
-    </p>
-    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
-
-</section>
-
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-<h1 class="heading"> <span>about</span> me </h1>
-
-<div class="row">
-
-    <div class="info">
-        <h3> <span> name : </span> Tanjimul Tanim </h3>
-        <h3> <span> age : </span> 16 </h3>
-        <h3> <span> post : </span> front end developer </h3>
-        <h3> <span> language : </span> English,Bangla </h3>
-    </div>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" integrity="sha512-nIm/JGUwrzblLex/meoxJSPdAKQOe2bLhnrZ81g5Jbh519z8GFJIWu87WAhBH+RAyGbM4+U3S2h+kL5JoV6/wA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-</div>
+        </head>
 
-</section>
+        <body>
 
-<!-- about section ends -->
+          
+          
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top bgcolor mynav" id="mainnav">
 
-<!-- education section starts  -->
 
-<section class="education" id="education">
+                <a class="navbar-brand" id="navbrand" href="#">Tanim</a>
+                <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                  <span class="fas fa-sliders-h"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                  <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item ">
+                        <a class="nav-link" id="home" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Services">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Client">Client</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Work">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
 
-<h1 class="heading"> my <span>education</span> </h1>
+         
+              <div class="img-fluid" id="bg1">
 
-<div class="box-container">
+                <!-- START Sec1 -->
+              
+                  <section class="section header-bg-img h-100vh" id="Home">
+                    <div class="bg-overlay"></div>
+                        <div class="header-table">
+                           <div class="header-table-center">
+                              <div class="container">
+                                <div class="row justify-content-center">
+                                   <div class="col-lg-12">
 
-            <div class="edc-box">
+                                        <div class="text-center header-content mx-auto" id="banner-area">
+                                        
+                                            <h4 class="text-white mb-4">Welcome</h3> 
+                                            <h1 class="header-name text-white text-capitalize mb-0">I am <span class="type"></span></h1>
+                                            <p class="text-white mx-auto mt-4">Design is not just what it looks like and feels like. Design is how it works</p>   
+                                            <div class="mt-4 pt-2">                               
+                                            <a href="#About">
+                                              <button type="button" class="btn btn-primary" id="btn1">EXPLORE</button>
+                                            </a>
+                                          </div>
+                                      </div>              
+                                    </div>
+                                 </div>
+                              </div>
+                            </div>
+                          </div>
 
-                    <div class="box" id="education-box">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span>2021</span>
-                        <h3>front end development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-                    </div>
+                  </section>
 
-            </div>
-
-            <div class="edc-box">
-
-                <div class="box" id="education-box">
-                    <i class="fas fa-graduation-cap"></i>
-                    <span>2021</span>
-                    <h3>front end development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
                 </div>
 
-        </div>
+                <!-- END Sec1-->
 
-        <div class="edc-box">
 
-            <div class="box" id="education-box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2021</span>
-                <h3>front end development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+                 <!-- START Sec2 -->
+
+                    <section class="section" id="About">
+                        <div class="container">
+                            <div class="row align-items-center">
+                              <div class="col-lg-6">
+                                <div class="mt-3">
+                                  <img src="Images/WhatsApp Image 2022-01-28 at 3.15.52 PM.jpeg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
+                                </div>
+                              </div>
+
+
+                              <div class="col-lg-6">
+                                <div class="mt-3">
+                                  <h2><span class="font-weight-bold">About</span> Me</h2>
+                                  <h4 class="mt-4">Hello! <span class="main-text" font-weight-bold id="carry">I'M Tanim.</span></h4>
+                                  <p class="text-muted mt-4">I'm a frontend web devoploper with experience of 2 years and done 30+ projects.
+                                  <p class="text-muted mt-2">I only produce top-tier work, and it will be at your direction.Others 
+                                    claim that they make custom sites but do not actually give you what 
+                                    they want—they have their own ideas. I genuinely cares about your 
+                                    input and will create what you are conjuring up in your imagination</p>
+
+                                    <ul class="mb-0 about-social list-inline mt-4">
+                                      <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100024371421991"><i class="fab fa-facebook-f"></i></i></a></li>
+                                      <li class="list-inline-item"><a href="https://www.instagram.com/tanjimul_tanim_07/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                      <li class="list-inline-item"><a href="https://www.linkedin.com/in/tanjimul-tanim-696150216/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></i></a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                  </ul> 
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+               
+                 <!-- END Sec2-->
+
+                 <!-- START Sec3 -->
+                      <section class="section bg-light" id="Services">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <div class="text-center">
+                                        <h2><span class="font-weight-bold">Skills</span></h2>
+                                        <p class="text-muted mx-auto section-subtitle mt-3" id="os-p">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row mt-5">
+
+                                <div class="col-lg-2">
+                                    <div class="text-center services-boxes rounded p-4 mt-4" style="border:none!important;"">
+                                        <div class="services-boxes-icon">
+                                          <img src="images/html-5.png"style="height:80px;width: 80px;border-radius: 100px;">
+                                        </div>
+                                        <div class="mt-4">
+                                            <hr style="height:2px;width:46px;border-width:0;color:#d9534f;;background-color:#d9534f;">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-lg-2">
+                                    <div class="text-center services-boxes rounded p-4 mt-4" style="border:none!important;"">
+                                        <div class="services-boxes-icon">
+                                          <img src="images/css-3.png" style="height:80px;width: 80px;border-radius: 100px;">
+                                        </div>
+                                        <div class="mt-4">
+                                            <hr style="height:2px;width:46px;border-width:0;color:#d9534f;;background-color:#d9534f;">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-lg-2">
+                                    <div class="text-center services-boxes rounded p-4 mt-4" style="border:none!important;">
+                                        <div class="services-boxes-icon">
+                                            <img src="images/js.png" style="height: 80px;width: 80px;border-radius: 100px;">
+                                        </div>
+                                        <div class="mt-4">
+                                            <hr style="height:2px;width:46px;border-width:0;color:#d9534f;;background-color:#d9534f;">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2">
+                                    <div class="text-center services-boxes rounded p-4 mt-4" style="border:none!important;">
+                                        <div class="services-boxes-icon">
+                                            <img src="images/bootstrap.png" style="height:80px;width: 80px;border-radius: 100px;">
+                                        </div>
+                                        <div class="mt-4">
+                                            <hr style="height:2px;width:46px;border-width:0;color:#d9534f;;background-color:#d9534f;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="text-center services-boxes rounded p-4 mt-4" style="border:none!important;"" style="border:none!important;">
+                                        <div class="services-boxes-icon">
+                                            <img src="images/experience (1).png"style="height:80px;width: 80px;border-radius: 100px;">
+                                        </div>
+                                        <div class="mt-4">
+                                            <hr style="height:2px;width:46px;border-width:0;color:#d9534f;;background-color:#d9534f;">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="col-lg-2">
+                                    <div class="text-center services-boxes rounded p-4 mt-4" style="border:none!important;"">
+                                        <div class="services-boxes-icon">
+                                          <img src="images/wordpress.png" style="height:80px;width: 80px;border-radius: 100px;">
+                                        </div>
+                                        <div class="mt-4">
+                                            <hr style="height:2px;width:46px;border-width:0;color:#d9534f;;background-color:#d9534f;">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+
+
+                        </div>
+                    </section>
+      <!-- END Sec-3-->
+
+
+          <!-- START Sec4 -->
+                  <section class="section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="text-center">
+                                    <h2>I Am Available Here.</h2>
+                                </div>
+                                <div class="text-center mt-4">
+                                    <a href="https://www.fiverr.com/tanjimultanim" class="btn btn-danger" id="btn2">Hire Me!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </section>
+        <!-- END Sec4-->
+
+
+          <!-- START Sec-5-->
+          <section class="section bg-light" id="Client">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h2>Our <span class="font-weight-bold">Client</span></h2>
+                            <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                        </div>
+                    </div>
+                </div>
+          <div class="owl-carousel owl-theme" >
+            <div class="slide slide-1">
+                <div class="slide-content mt-5">
+                  <div class="text-center testi_boxes mx-auto">
+                    <div class="tam_testi_icon main-text">
+                        <i class="fas fa-quote-left fa-2x"></i>
+                    </div>
+                    <div class="mt-2">
+                        <div>
+                          <img src="Images/user.png" id="img1"alt="" class="mx-auto img-thumbnail img-fluid d-block rounded-circle">
+                        </div>
+                        <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                        <p class="client_name text-center mb-0 mt-4">-Olive Tree.</p>
+                    </div>
+                </div>
+                </div>
             </div>
-
-    </div>
-
-    <div class="edc-box">
-
-        <div class="box" id="education-box">
-            <i class="fas fa-graduation-cap"></i>
-            <span>2021</span>
-            <h3>front end development</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+            <div class="slide slide-2">
+                <div class="slide-content mt-5">
+                  <div class="text-center testi_boxes mx-auto">
+                    <div class="tam_testi_icon main-text">
+                        <i class="fas fa-quote-left fa-2x"></i>
+                    </div>
+                    <div class="mt-2">
+                        <div>
+                            <img src="Images/user.png" id="img1"alt="" class="mx-auto img-thumbnail img-fluid d-block rounded-circle">
+                        </div>
+                        <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                        <p class="client_name text-center mb-0 mt-4">-Fran G. Pani.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="slide slide-3">
+                <div class="slide-content mt-5">
+                  <div class="text-center testi_boxes mx-auto">
+                    <div class="tam_testi_icon main-text">
+                        <i class="fas fa-quote-left fa-2x"></i>
+                    </div>
+                    <div class="mt-2">
+                        <div>
+                          <img src="Images/user.png" id="img1"alt="" class="mx-auto img-thumbnail img-fluid d-block rounded-circle">
+                        </div>
+                        <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                        <p class="client_name text-center mb-0 mt-4">-Ev R. Lasting.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
-
-</div>
-
-<div class="edc-box">
-
-    <div class="box" id="education-box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2021</span>
-        <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- education section ends -->
-
-<!-- portfolio section starts  -->
-
-<section class="portfolio" id="portfolio">
-
-<h1 class="heading"> my <span>portfolio</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <img src="image/uptown-free-template.jpg.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="image/brendon-bootstrap-personal-website-templates.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="image/automotive-website-templates.png" alt="">
-    </div>
-
-    <div class="box">
-        <img src="image/egames-free-template-1.jpg.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="image/essorize-electronics-ecommerce-classic-elementor-woocommerce-theme.jpg" alt="">
-    </div>
+      </section>
+      <!-- END Sec-5 -->
 
 
-    <div class="box">
-        <img src="image/best-hosting-for-musicians.jpg" alt="">
-    </div>
+      <!--START sec-6-->
 
-    <div class="box">
-        <img src="image/mediex.jpg" alt="">
-    </div>
 
-    <div class="box">
-        <img src="image/Briny-min-14-1024x745.jpg" alt="">
-    </div>
 
-    <div class="box">
-        <img src="image/Work-Travel-min-3-1024x745.jpg" alt="">
-    </div>
 
-    <div class="box">
-        <img src="image/entro.jpg" alt="">
-    </div>
 
-</div>
+      <section class="section text-center" id="Work">
 
-</section>
+        <div class="container">
 
-<!-- portfolio section ends -->
+            <div class="row justify-content-center">
 
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-<h1 class="heading"> <span>contact</span> me </h1>
-
-<div class="row">
-
-    <div class="content">
-
-        <h3 class="title">contact info</h3>
-
-        <div class="info">
-            <h3> <i class="fas fa-envelope"></i> tanjimul4545@gmail.com </h3>
-            <h3> <i class="fas fa-phone"></i> +8801641223723</h3>
-            <h3> <i class="fas fa-map-marker-alt"></i> Sylhet,Bangladesh </h3>
+                  <div class="col-lg-12">
+                      <div class="text-center">
+                          <h2>My<span class="font-weight-bold ml-2">Works</span></h2>
+                          <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                      </div>
+                  </div>
+                
+            </div>
         </div>
+      </section>
 
-    </div>
+            <section class="gallery text-center">
+                <div class="container">
+                      <div class="row">
+                        <div class="col-lg-12 mb-5 gallery-filter">
+                            <ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu">
+                                <li class="list-inline-item"><a class="filter-item active" data-filter="all">All</a></li>
+                                <li class="list-inline-item"><a class="filter-item" data-filter="webdesign">Webdesign</a></li>
+                                <li class="list-inline-item"><a class="filter-item" data-filter="wordpress">Wordpress</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-    <form action="">
 
-        <input type="text" placeholder="name" class="box">
-        <input type="email" placeholder="email" class="box">
-        <input type="text" placeholder="project" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+                        <div class="row gallerys">
+                        <div class="col-lg-4 work-item work webdesign Wordpress">
+                            <div class="work-box">
+                                <div class="work-img gallery-item seo work all wordpress ">
+                                    <a href="images/7.png" class="gallery-item-inner" target="_blank">
+                                        <img src="images/7.png" class="img-fluid mx-auto d-block rounded " id="work-image" alt="work-img">
+                                    </a>
+                                </div>
+                             </div>
+                            </div>
 
-    </form>
 
-</div>
+                        
+                                <div class="col-lg-4 work-item work Wordpress seo">
+                                    <div class="work-box">
+                                        <div class="work-img gallery-item seo wordpress all">
+                                            <a href="images/9.jpg" class="gallery-item-inner" target="_blank">
+                                                <img src="images/9.jpg" class="img-fluid mx-auto d-block rounded " id="work-image" alt="work-img">
+                                            </a>
+                                        </div>
 
+                                     </div>
+                                    </div>
+    
+
+                           
+                                <div class="col-lg-4 work-item work webdesign Wordpress all">
+                                    <div class="work-box">
+                                        <div class="work-img gallery-item Seo wordpress all">
+                                            <a href="images/3.png" class="gallery-item-inner" target="_blank">
+                                                <img src="images/3.png" class="img-fluid mx-auto d-block rounded " id="work-image" alt="work-img">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+            
+                                
+                                <div class="col-lg-4 work-item work webdesign Wordpress all">
+                                    <div class="work-box">
+                                        <div class="work-img gallery-item Seo webdesign all">
+                                            <a href="images/1.png" class="gallery-item-inner" target="_blank">
+                                                <img src="images/1.png" class="img-fluid mx-auto d-block rounded " id="work-image" alt="work-img">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 work-item work webdesign Wordpress all">
+                                    <div class="work-box">
+                                        <div class="work-img gallery-itemwebdesign all">
+                                            <a href="images/2.png" class="gallery-item-inner" target="_blank">
+                                                <img src="images/2.png" class="img-fluid mx-auto d-block rounded " id="work-image" alt="work-img">
+                                            </a>
+                                        </div>
+                                        <div class="work-img gallery-itemwebdesign wordpress all mt-4">
+                                            <a href="images/8.png" class="gallery-item-inner" target="_blank">
+                                                <img src="images/8.png" class="img-fluid mx-auto d-block rounded " id="work-image" alt="work-img">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 work-item work webdesign Wordpress all">
+                                    <div class="work-box">
+                                        <div class="work-img gallery-item webdesign wordpress all">
+                                            <a href="images/5.png" class="gallery-item-inner" target="_blank">
+                                                <img src="images/5.png" class="img-fluid mx-auto d-block rounded " id="work-image" alt="work-img">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                             
+
+
+
+                     
+
+                    
+                  
+
+                      </div>
+                </div>
+               
+            </section>
+
+
+
+
+<!--START sec-7-->
+
+                
+
+<!-- END Sec-7 -->
+
+
+
+<!-- START Sec-8-->
+<section class="section" id="Contact">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-12">
+              <div class="text-center">
+                  <h2><span class="font-weight-bold">Contact</span> Me</h2>
+                  <p class="text-muted mx-auto section-subtitle mt-3">Design is not just what it looks like and feels like. Design is how it works.</p>
+              </div>
+          </div>
+      </div> 
+      <div class="row mt-5">
+          <div class="col-lg-4">
+              <div class="text-center">
+                  <div>
+                      <i class="fas fa-mobile-alt fa-3x main-text"></i>
+                  </div>
+                  <div class="mt-3">
+                      <h5 class="mb-0 contact_detail-title font-weight-bold">Call Me On</h5>
+                      <p class="text-muted">+123 456 789</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="text-center">
+                  <div>
+                      <i class="far fa-envelope fa-3x main-text"></i>
+                  </div>
+                  <div class="mt-3">
+                      <h5 class="mb-0 contact_detail-title font-weight-bold">Email Me At</h5>
+                      <p class="text-muted">tanjimultanim45@gmail.com</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="text-center">
+                  <div>
+                      <i class="fas fa-map-marker-alt fa-3x main-text"></i>
+                  </div>
+                  <div class="mt-3">
+                      <h5 class="mb-0 contact_detail-title font-weight-bold">Visit Office</h5>
+                      <p class="text-muted">Sylhet,Bangladesh</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row mt-5">
+          <div class="col-lg-12">
+              <div class="form-kerri">
+                  <form>
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <div class="form-group mt-2">
+                                  <input name="name" id="name" type="text" class="form-control" placeholder="Your Name*" required="">
+                              </div>
+                          </div>
+                          <div class="col-lg-6">
+                              <div class="form-group mt-2">
+                                  <input name="email" id="email" type="email" class="form-control" placeholder="Your Email*" required="">
+                              </div>
+                          </div>                                
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="form-group mt-2">
+                                  <input type="text" class="form-control" id="subject" placeholder="Your Subject.." required=""/>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="form-group mt-2">
+                                  <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-12 text-right">
+                              <input type="submit" class="btn btn-danger" id="btn3" value="Send Message">
+                          </div>
+                      </div>
+                  </form>
+              </div>  
+          </div>
+      </div>
+  </div>
 </section>
-
-<!-- contact section ends -->
-
-
-<!-- scroll top button  -->
-
-<a href="#home" class="top">
-    <img src="images/scroll-top-img.png" alt="">
-</a>
+<!-- END Sec-8 -->
 
 
+                <footer class="footer">
+                  <div class="container">
+                      <div class="row justify-content-center text-center">
+                          <div class="col-md-12">
+                              <div class="text-center text-white footer-alt">
+                                  <ul class="list-unstyled list-inline mb-3">
+                                      <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100024371421991"><i class="fab fa-facebook-f" id="ficon"></i></a></li>
+                                      <li class="list-inline-item"><a href="https://www.instagram.com/tanjimul_tanim_07/"><i class="fab fa-instagram" id="ficon"></i></a></li>
+                                      <li class="list-inline-item"><a href="https://www.linkedin.com/in/tanjimul-tanim-696150216/"><i class="fab fa-linkedin-in" id="ficon"></i></a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-twitter" id="ficon"></i></a></li>
+                                  </ul>
+                                  <p class="text-muted mb-0"> 2022 &copy;Design by Tanjimul Tanim.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </footer>
 
 
-</div>
 
 
 
@@ -256,14 +574,91 @@
 
 
 
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.js"></script>
+                <script>
+                    var typed = new Typed(".type",  {
+                      strings: [
+                        "Tanjimul Tanim.",
+                        "A Graphic designer",
+                        "A Web designer"
+                      ],
+                      typeSpeed: 60,
+                      backSpeed: 60,
+                      backdelay: 1500,
+                      loop: true
+                    });
+                </script>
+
+                <script>
+                  $(window).scroll(function() {
+
+                    $('nav').toggleClass('scrolled',$(this).scrollTop()>50);
+                  });
+                </script>
+
+              <!-- Jquery -->
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                  <!-- Owl Carousel -->
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+                  <!-- Custom Javascript -->
+                  <script>
+                      $(document).ready(function () {
+                          $(".owl-carousel").owlCarousel({
+                              items:1,
+                              loop:true,
+                              dots:true,
+                              autoplay:true,
+                              autoplaySpeed:1400,
+                              smartSpeed:1300,
+                              autoplayHoverPause:true
+                          });
+                      });
+                  </script>
+         
+                    <!-- magnific popup js cdn link  -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+                    <script>
+                    $(document).ready(function() {
+                        $('.gallerys').magnificPopup({
+                            type:'image' ,
+                            delegate: 'a' ,
+                            gallery: {
+                                enabled: true
+                            }
+                        });
+                      });
+                    </script>
 
 
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<!-- custom js file link  -->
-<script src="script.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-</body>
+                    <script>
+
+                        const filterContainer = document.querySelector(".gallery-filter"),
+                         galleryItems = document.querySelectorAll(".gallery-item");
+                        
+                         filterContainer.addEventListener("click", (event) =>{
+                           if(event.target.classList.contains("filter-item")){
+                                // deactivate existing active 'filter-item'
+                                filterContainer.querySelector(".active").classList.remove("active");
+                                // activate new 'filter-item'
+                                event.target.classList.add("active");
+                                const filterValue = event.target.getAttribute("data-filter");
+                                galleryItems.forEach((item) =>{
+                               if(item.classList.contains(filterValue) || filterValue === 'all'){
+                                   item.classList.remove("hide");
+                                    item.classList.add("show");
+                               }
+                               else{
+                                   item.classList.remove("show");
+                                   item.classList.add("hide");
+                               }
+                                });
+                           }
+                         });</script>
+        </body>
+
 </html>
